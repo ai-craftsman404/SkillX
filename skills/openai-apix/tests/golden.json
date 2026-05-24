@@ -1,0 +1,18 @@
+{
+  "scenario": "Implement or migrate OpenAI API code using official patterns.",
+  "input": "Add tool calling to this OpenAI integration.",
+  "expected_output_shape": [
+    "Code changes",
+    "Integration rationale",
+    "Migration notes when relevant"
+  ],
+  "expected_elements": [
+    "Detect the project language",
+    "Confirm the target OpenAI surface",
+    "Use official SDK patterns where supported"
+  ],
+  "not_expected": [
+    "Mix providers accidentally",
+    "Guess SDK signatures"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "scenario": "Confirm a UI or runtime change works in a running app.",
+  "input": "Verify that this UI flow works end to end.",
+  "expected_output_shape": [
+    "Pass/fail result",
+    "Observed behavior",
+    "Evidence such as logs or screenshots"
+  ],
+  "expected_elements": [
+    "Build or start the target app",
+    "Exercise the relevant workflow",
+    "Observe the actual runtime result"
+  ],
+  "not_expected": [
+    "Static code reading only",
+    "Claiming success without runtime observation"
+  ]
+}

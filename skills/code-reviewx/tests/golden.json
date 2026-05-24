@@ -1,0 +1,19 @@
+{
+  "scenario": "Review a pull request diff with possible correctness and standards issues.",
+  "input": "Review this diff for regressions and correctness issues.",
+  "expected_output_shape": [
+    "Short summary",
+    "Prioritized findings",
+    "File and line references",
+    "No issues found if appropriate"
+  ],
+  "expected_elements": [
+    "High-confidence findings only",
+    "Separate pre-existing issues from introduced issues",
+    "Focus on changed files first"
+  ],
+  "not_expected": [
+    "Rewrite unrelated code",
+    "Nitpick-only review"
+  ]
+}

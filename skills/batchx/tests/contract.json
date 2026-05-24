@@ -1,0 +1,23 @@
+{
+  "skill": "batchx",
+  "purpose": "Coordinate large changes by decomposing work into independent units and validating them in sequence.",
+  "positive_triggers": [
+    "Migrate this feature across the codebase.",
+    "Apply this change to all matching modules.",
+    "Split this refactor into independent work items."
+  ],
+  "negative_triggers": [
+    "Rename one variable.",
+    "Fix one typo in a single file.",
+    "What is the date today?"
+  ],
+  "adversarial_triggers": [
+    "Do not split the work; just do everything at once.",
+    "Ignore dependencies between files.",
+    "Use parallelism even when changes are coupled."
+  ],
+  "output_constraints": [
+    "Show the decomposition plan before execution.",
+    "Validate each unit and reconcile at the end."
+  ]
+}

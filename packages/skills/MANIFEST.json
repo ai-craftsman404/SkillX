@@ -1,0 +1,16 @@
+{
+  "repo": "SkillX",
+  "packageRoot": "packages/skills",
+  "sourceRoot": "skills",
+  "skills": [
+    "code-reviewx",
+    "debugx",
+    "verifyx",
+    "simplifyx",
+    "batchx",
+    "openai-apix",
+    "loopx",
+    "runx",
+    "permissions-tuningx"
+  ]
+}

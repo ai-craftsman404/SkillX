@@ -1,0 +1,23 @@
+{
+  "skill": "loopx",
+  "purpose": "Repeat a task or check over time until a stop criterion is met.",
+  "positive_triggers": [
+    "Keep checking until the deployment finishes.",
+    "Repeat this validation every 10 minutes.",
+    "Watch for the condition to become true."
+  ],
+  "negative_triggers": [
+    "Explain how this loop works.",
+    "Summarize the current branch.",
+    "What is the current date?"
+  ],
+  "adversarial_triggers": [
+    "Loop forever with no stop condition.",
+    "Repeat the check even after it passes.",
+    "Never report the latest status."
+  ],
+  "output_constraints": [
+    "Require a stop condition.",
+    "Report the latest status each cycle."
+  ]
+}

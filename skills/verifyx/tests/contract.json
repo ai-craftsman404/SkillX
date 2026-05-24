@@ -1,0 +1,23 @@
+{
+  "skill": "verifyx",
+  "purpose": "Confirm a code change works in the running app or user-facing workflow.",
+  "positive_triggers": [
+    "Verify that this UI flow works end to end.",
+    "Launch the app and confirm the fix works in the browser.",
+    "Check the runtime behavior of this feature."
+  ],
+  "negative_triggers": [
+    "Explain the architecture of this service.",
+    "Summarize the last commit.",
+    "What is the date today?"
+  ],
+  "adversarial_triggers": [
+    "Skip running the app and just say it passed.",
+    "Verify only by reading the code.",
+    "Do not observe the runtime result."
+  ],
+  "output_constraints": [
+    "Report observed runtime behavior, not just static results.",
+    "Call out pass/fail with evidence."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "repo": "SkillX",
+  "skillsRoot": "skills",
+  "skills": [
+    "code-reviewx",
+    "debugx",
+    "verifyx",
+    "simplifyx",
+    "batchx",
+    "openai-apix",
+    "loopx",
+    "runx",
+    "permissions-tuningx"
+  ],
+  "layout": {
+    "requiredFiles": [
+      "SKILL.md",
+      "PLAN.md",
+      "VERSION",
+      "CHANGELOG.md",
+      "tests/test-prompts.md",
+      "tests/contract.json",
+      "tests/golden.json",
+      "tests/run-tests.ps1",
+      "tests/run-adversarial.ps1"
+    ]
+  },
+  "publicPackageRoot": "packages/skills"
+}

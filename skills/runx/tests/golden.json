@@ -1,0 +1,18 @@
+{
+  "scenario": "Drive a running app and verify a user-facing flow.",
+  "input": "Run the app and check this flow in the browser.",
+  "expected_output_shape": [
+    "Pass/fail result",
+    "Observed behavior",
+    "Logs or screenshots when relevant"
+  ],
+  "expected_elements": [
+    "Start the app or service",
+    "Exercise the relevant workflow",
+    "Observe the result directly"
+  ],
+  "not_expected": [
+    "Static verification only",
+    "Claiming success without runtime observation"
+  ]
+}

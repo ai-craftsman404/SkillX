@@ -1,0 +1,9 @@
+interface:
+  display_name: "Agent Panel"
+  short_description: "Small subagent review panel"
+  icon_small: "./assets/app-icon.png"
+  icon_large: "./assets/app-icon.png"
+  default_prompt: "Use $agent-panel to split this task into a small panel of agents, compare the top ideas, and return one best recommendation per point."
+
+policy:
+  allow_implicit_invocation: true

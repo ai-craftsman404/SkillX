@@ -1,0 +1,18 @@
+{
+  "scenario": "Split a large codebase change into independent units.",
+  "input": "Migrate this feature across the codebase.",
+  "expected_output_shape": [
+    "Decomposition plan",
+    "Progress by unit",
+    "Final merge or consistency status"
+  ],
+  "expected_elements": [
+    "Map work into independent items",
+    "Identify dependencies and merge order",
+    "Validate each unit before combining results"
+  ],
+  "not_expected": [
+    "Tiny one-file edit treatment",
+    "Parallel execution when coupled"
+  ]
+}

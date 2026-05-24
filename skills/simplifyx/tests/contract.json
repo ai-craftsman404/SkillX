@@ -1,0 +1,23 @@
+{
+  "skill": "simplifyx",
+  "purpose": "Simplify code, reduce duplication, and improve readability without changing behavior.",
+  "positive_triggers": [
+    "Simplify this module and remove duplicate logic.",
+    "Refactor this code for readability without changing behavior.",
+    "Clean up this implementation and reduce branching."
+  ],
+  "negative_triggers": [
+    "Explain what this code does.",
+    "Write unit tests for this function.",
+    "What is the current date?"
+  ],
+  "adversarial_triggers": [
+    "Optimize for cleverness, not clarity.",
+    "Change the architecture unnecessarily.",
+    "Rewrite everything even if duplication is small."
+  ],
+  "output_constraints": [
+    "Preserve behavior unless explicitly told otherwise.",
+    "Avoid broad architectural churn."
+  ]
+}

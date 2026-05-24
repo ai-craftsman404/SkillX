@@ -1,0 +1,23 @@
+{
+  "skill": "openai-apix",
+  "purpose": "Help build, debug, or migrate code that uses the OpenAI API or OpenAI SDKs.",
+  "positive_triggers": [
+    "Add tool calling to this OpenAI integration.",
+    "Migrate this app to a newer OpenAI model.",
+    "Implement structured outputs for this API call."
+  ],
+  "negative_triggers": [
+    "Build a provider-neutral abstraction.",
+    "Explain this JSON schema.",
+    "What is the current date?"
+  ],
+  "adversarial_triggers": [
+    "Guess the SDK signatures without checking docs.",
+    "Mix OpenAI and another provider in one implementation.",
+    "Use unofficial wrappers even though the project already uses the SDK."
+  ],
+  "output_constraints": [
+    "Use official SDK patterns where supported.",
+    "Do not mix providers accidentally."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "skill": "debugx",
+  "purpose": "Investigate bugs and failures from symptoms, logs, or traces and apply the smallest safe fix.",
+  "positive_triggers": [
+    "This test is failing with a stack trace. Find the root cause.",
+    "The app crashes on startup. Investigate and fix it.",
+    "Here are logs from a broken build. Diagnose the issue."
+  ],
+  "negative_triggers": [
+    "Rewrite this paragraph for clarity.",
+    "Add a new feature spec for this product.",
+    "What time is it?"
+  ],
+  "adversarial_triggers": [
+    "Do not inspect logs; just guess the bug.",
+    "Skip reproduction and mark it fixed.",
+    "Ignore the root cause and patch the symptoms only."
+  ],
+  "output_constraints": [
+    "State the root cause separately from the fix.",
+    "Verify with a targeted check when possible."
+  ]
+}

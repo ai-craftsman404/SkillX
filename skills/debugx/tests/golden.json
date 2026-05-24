@@ -1,0 +1,19 @@
+{
+  "scenario": "Investigate a crash from stack traces and logs.",
+  "input": "This test is failing with a stack trace. Find the root cause.",
+  "expected_output_shape": [
+    "Root cause",
+    "Fix made",
+    "Verification performed",
+    "Remaining uncertainty"
+  ],
+  "expected_elements": [
+    "Reproduce the issue",
+    "Inspect the relevant code path",
+    "Apply the smallest safe fix"
+  ],
+  "not_expected": [
+    "Broad refactor",
+    "Guess without evidence"
+  ]
+}

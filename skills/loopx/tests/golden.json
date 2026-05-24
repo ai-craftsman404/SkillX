@@ -1,0 +1,18 @@
+{
+  "scenario": "Repeat a check until a stop criterion is met.",
+  "input": "Keep checking until the deployment finishes.",
+  "expected_output_shape": [
+    "Latest status",
+    "Iteration summary",
+    "Stop reason"
+  ],
+  "expected_elements": [
+    "Define a stop condition",
+    "Pick a safe interval or pacing strategy",
+    "Record the latest result each cycle"
+  ],
+  "not_expected": [
+    "Open-ended loops",
+    "One-shot treatment of repeated monitoring"
+  ]
+}

@@ -1,0 +1,32 @@
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Generated release/test artifacts
+skills/**/tests/results/
+packages/**/tests/results/
+publish-log.csv
+docs/internal/
+
+# Optional local badge/image work files
+*.psd
+*.xcf

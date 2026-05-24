@@ -1,0 +1,18 @@
+{
+  "scenario": "Simplify changed code without changing behavior.",
+  "input": "Simplify this module and remove duplicate logic.",
+  "expected_output_shape": [
+    "Summary of simplifications",
+    "Files changed",
+    "Behavior risk notes"
+  ],
+  "expected_elements": [
+    "Reduce unnecessary complexity",
+    "Consolidate duplication when safe",
+    "Preserve behavior"
+  ],
+  "not_expected": [
+    "Architecture churn",
+    "Unfounded micro-optimizations"
+  ]
+}
