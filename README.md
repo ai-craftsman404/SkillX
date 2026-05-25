@@ -22,6 +22,20 @@ Use this repo as a public reference for building, testing, and organizing focuse
 - `packages/skills/` is the public package root for remote distribution and documentation.
 - `skills/` is the validated source tree used by the local release gate.
 
+## Skills at a Glance
+
+| Skill | What it does |
+|---|---|
+| `code-reviewx` | Reviews diffs and PRs for bugs, regressions, and standards issues. |
+| `debugx` | Diagnoses failures from symptoms, logs, or traces and applies the smallest safe fix. |
+| `verifyx` | Confirms a change works in the running app or user-facing workflow. |
+| `simplifyx` | Reduces duplication and complexity without changing behavior. |
+| `batchx` | Coordinates large changes by splitting them into independent units. |
+| `openai-apix` | Helps build or migrate code that uses the OpenAI API or SDKs. |
+| `loopx` | Repeats checks or tasks until a stop condition is met. |
+| `runx` | Runs the app or service and verifies a real user-facing flow. |
+| `permissions-tuningx` | Reduces repeated permission prompts safely. |
+
 ## Skill Groups
 
 - Review and cleanup: `code-reviewx`, `simplifyx`
